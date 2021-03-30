@@ -20,10 +20,27 @@ const Hello: React.FC<Props> = (props) => {
     Array(numChars + 1).join('!');
   return (
     <View style={styles.root}>
+    
+    
+    
+    
+    
+    
+    
+    
       <Text style={styles.greeting}>
         Hello{' '}
+
+
+
+
         {props.name + getExclamationMarks(enthusiasmLevel || 0)}
       </Text>
+
+
+
+
+      
       <View style={styles.buttons}>
         <View style={styles.button}>
           <Button
