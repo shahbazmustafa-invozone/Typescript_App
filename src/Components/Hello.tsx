@@ -7,7 +7,6 @@ export interface Props {
 }
 
 const Hello: React.FC<Props> = (props) => {
-    console.log(props)
   const [enthusiasmLevel, setEnthusiasmLevel] = React.useState(
     props.enthusiasmLevel
   );
